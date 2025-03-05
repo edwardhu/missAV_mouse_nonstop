@@ -17,7 +17,11 @@
   "content_scripts": [
     {
       "matches": [
+<<<<<<< HEAD
         "*://missav.ws/*"
+=======
+        "*://missav.ai/*"
+>>>>>>> eccffca5a355f183bf7d9699775490a13ff78944
       ],
       "js": ["scripts/content.js"],
       "run_at": "document_start"
