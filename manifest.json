@@ -17,7 +17,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://missav.com/*"
+        "*://missav.ws/*"
       ],
       "js": ["scripts/content.js"],
       "run_at": "document_start"
